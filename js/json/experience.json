@@ -1,0 +1,49 @@
+[
+	{
+    	"name": "BookIt.com Web Developer",
+    	"description": "At BookIt.com, I spent my time working on various features of their site while also contributing to their major site redesign code named 'Facelift'. I primarily dabbled in the HTML, CSS, Javascript for the front end and PHP and MySQL for the backend.",
+        "image": "../img/bookit.png",
+        "skills": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "PHP",
+        "MySQL",
+        "Git"
+        ]
+    },
+    {
+    	"name": "Riptide Web Developer",
+    	"description": "At Riptide, I worked primarily on their Elements platform which was an e-learning web application. The application used a variety of languages and tools but the ones that I dealt with were AngularJs, LESS, some Photoshop and some NodeJs.",
+        "image": "../img/riptide-elements.png",
+        "skills": [
+        "AngularJs",
+        "LESS",
+        "Adobe Photoshop",
+        "NodeJs"
+        ]
+    },
+    {
+    	"name": "LED Globe | Senior Project Team Member",
+    	"description": "This is a project that two other Electrical Engineering students and I completed for our Senior Design project for the EECS program. The LED Globe is a spinning apparatus in a shape of a sphere and it contains 90 LEDs in order to show images in complex arrays(or simple ones like names and letters). There were three main components that my group and I split up this project into and they are the mechanical, electical and the codeing side of things. I was put in charge of the coding side. The code was a combination of C and java and we used an Ardiuno development board and IDE to implement our code. I was writing code in order to help the microcontroller communicate with the infrared sensor as well as the 34 shift registers. I also wrote from scratch the bitmaps to display the images on the 90 LEDs. I was also in charge of designing the website. If you click the picture to the right, it will take you to the hastily-built-in-one-night website that I made. At the website, you can see more of me and my group's project in action.",
+        "image": "../img/LED%20Globe%20Website.png",
+        "skills": [
+        "C++",
+        "Eagle Cadsoft PCB design",
+        "Electronic Design",
+        "HTML",
+        "CSS"
+        ]
+    },
+    {
+    	"name": "Trevisani Oral Surgery and Dental Implants | IT/AV Office Position",
+    	"description": "Dr. Trevisani put me in charge of creating various sitting room commercials highlighting his work and his various offices throughout Orlando using the Adobe Creative Suite. I also provided consultation on his company website and altered the existing webpages to better market and appeal to Dr. Trevisani's cliente. Lastly, I had to assist and coordinate inter-office video communication between five different offices using the GoToMeeting web application.",
+        "image": "../img/Dr.Trevisani.png",
+        "skills": [
+        "Adobe Premiere",
+        "Adobe Photoshop",
+        "GoToMeeting",
+        "Web Design"
+        ]
+    }
+]

@@ -1,0 +1,297 @@
+body {
+  font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  background-color: #112128; /*#396c82;*/ 
+}
+
+.text {
+  position: fixed;
+  transform: translateY(-50%) translateX(-50%);
+  top: 50%;
+  left: 50%;
+  padding: 8px;
+  width: 20vw;
+  color: white;
+  background: ;
+  border: 2px solid white;
+  opacity: 0.9;
+  text-align: center;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+.navbar-nav a{
+  color: white;
+}
+.navbar-nav a:hover {
+  color: black;
+}
+#skills {
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background: #1A3742;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
+  background-image: -webkit-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -moz-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -ms-linear-gradient(top, #1A3742, #9EA183);
+  background-image: -o-linear-gradient(top, #1A3742, #9EA183);
+  color: white;
+}
+#section-1 {
+  height: 400px;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background: #e1e1e1;
+  background-image: url('/img/deskoffice-blue.jpg');
+  background-position: center left;
+  background-size: cover;
+  color: white
+}
+.icons a {
+  color: white;
+  cursor: pointer;
+}
+.icons i {
+  font-size: 20px;
+  padding: 5px;
+}
+.icons i:hover {
+  color: #e1e1e1;
+}
+.experience {
+  height: auto;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background-position: center left;
+  background-size: cover;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+#experience img {
+  width: 90%;
+  padding: 30px;
+}
+ul.skills-list {
+  padding-left: 0px;
+}
+.skills-list li {
+    color: #FFF;
+    text-shadow: 0 1px 0 rgba(0,0,0,.15);
+    line-height: 32px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #B1B1B1;
+    padding: 4px 9px;
+    margin: 3px;
+}
+.box {
+  border: 1px solid black;
+  padding: 25px;
+  padding-top: 10px;
+  list-style: none;
+  border-radius: 5px;
+  height: 100px;
+  overflow: hidden;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  color: white;
+}
+.box:hover {
+  height: 200px;
+}
+.skills {
+  height: auto;
+  background-color: blue;
+}
+.contact {
+  height: auto;
+  background-color: red;
+}
+.cover{
+  height: 100%;
+}
+.text-container {
+  width: 50%;
+}
+.small-container p, .small-container h2 {
+  color: #E6E0CB;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: 400;
+}
+.small-container h2 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.small-container .icons i{
+  color: #E6E0CB;
+}
+.small-container .icons i:hover {
+  color: #e1e1e1;
+}
+.text-container section {
+  padding-top: 80px;
+}
+.small-container {
+  width: 40%;
+  padding-bottom: 15px;
+}
+/* rotating words */
+.rw-wrapper{
+  position: relative;
+  font-family: 'Bree Serif';
+  padding: 10px;
+}
+.rw-sentence{
+  margin: 0;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(123,123,123,1);
+}
+.rw-sentence span{
+  color: black;
+  white-space: nowrap;
+  font-size: 200%;
+  font-weight: normal;
+}
+.rw-words{
+  display: inline;
+  text-indent: 10px;
+}
+.rw-words span{
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  width: 100%;
+  color: #6b969d;
+}
+.rw-words-1 span{
+  animation: rotateWordsFirst 18s linear infinite 0s;
+}
+.rw-words-2 span{
+  animation: rotateWordsSecond 18s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+  animation-delay: 3s; 
+  color: #6b889d;
+}
+.rw-words span:nth-child(3) { 
+  animation-delay: 6s; 
+  color: #6b739d; 
+}
+.rw-words span:nth-child(4) { 
+  animation-delay: 9s; 
+  color: #7a6b9d;
+}
+.rw-words span:nth-child(5) { 
+  animation-delay: 12s; 
+  color: #8d6b9d;
+}
+.rw-words span:nth-child(6) {  
+  animation-delay: 15s; 
+  color: #9b6b9d;
+}
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+  25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    10% { opacity: 0.3; width: 0px; }
+  20% { opacity: 1; width: 100%; }
+    27% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}
+/* end rotating words */
+
+/* media queries */
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .text {
+      width: 60%;
+    }
+    #section-1 {
+      display: none;
+    }
+    .skills-list li {
+      display: inline-block;
+      font-size: 14px;
+    }
+    .small-container {
+      width: 80%;
+    }
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .text {
+      width: 60%;
+    }
+    #section-1 {
+      display: none;
+    }
+    .skills-list li {
+      display: inline-block;
+      font-size: 14px;
+    }
+    .small-container {
+      width: 80%;
+    }
+}
+
+/* ----------- iPad ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section-1 {
+      display: none;
+    }
+    #bg {
+      height: 1024px;
+    }
+    .text {
+      width: 36vw;
+    }
+    .small-container {
+      width: 80%;
+    }
+
+}
